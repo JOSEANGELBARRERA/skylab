@@ -13,7 +13,7 @@ this.multiply = function () {
 	return this.firstOperator + " * " + this.secondOperator + " = " + (this.firstOperator * this.secondOperator);
 		}
 this.divide = function() {
-	if (this.secondOperator === 0) {console.log("Sorry, zero cannot be the divisor number");
+	if (this.secondOperator === 0) { console.log("Sorry, zero cannot be the divisor number");
 		}		
 	else { return this.firstOperator + " / " + this.secondOperator + " = " + (this.firstOperator / this.secondOperator).toFixed(3);
 		}
@@ -48,7 +48,7 @@ switch (userChoice) {
 var firstOperator= parseInt(prompt("Add an integer number"));
 var secondOperator= parseInt(prompt("Add another integer number"));
 
-var result2 = calculator2.sum(firstOperator, secondOperator);
+
 var results2 = [calculator2.sum(firstOperator, secondOperator), calculator1.rest(firstOperator, secondOperator), calculator1.multiply(firstOperator, secondOperator), calculator1.divide(firstOperator, secondOperator), calculator1.squareRoot(firstOperator, secondOperator)];
 var results2Results1 = results2.concat(results);
 console.log(results2Results1);
