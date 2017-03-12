@@ -7,15 +7,15 @@ this.sum = function() {
 	return this.firstOperator + " + " + this.secondOperator + " = " + (this.firstOperator + this.secondOperator);
 		}
 this.rest = function(){
-	return this.firstOperator + " - " + this.secondOperator + " = " + (this.firstOperator-this.secondOperator);
+	return this.firstOperator + " - " + this.secondOperator + " = " + (this.firstOperator - this.secondOperator);
 		}
 this.multiply = function () {
-	return this.firstOperator + " * " + this.secondOperator + " = " + (this.firstOperator*this.secondOperator);
+	return this.firstOperator + " * " + this.secondOperator + " = " + (this.firstOperator * this.secondOperator);
 		}
 this.divide = function() {
 	if (this.secondOperator === 0) {console.log("Sorry, zero cannot be the divisor number");
 		}		
-	else { return this.firstOperator + " / " + this.secondOperator + " = " + (this.firstOperator/this.secondOperator).toFixed(3);
+	else { return this.firstOperator + " / " + this.secondOperator + " = " + (this.firstOperator / this.secondOperator).toFixed(3);
 		}
 	}
 
@@ -54,13 +54,13 @@ var results2Results1 = results2.concat(results);
 console.log(results2Results1);
 
 
-Con esta funcion de abajo he querido hacer una página web que mostrara
+/*Con esta funcion de abajo he querido hacer una página web que mostrara
 el resultado, pero no me sale prque este código funciona en Code Academi
 pero no es Chorme que es donde tienen que correr las páginas web.
-El problema es que no sé donde está el problema..
+El problema es que no sé donde está el problema...:)
 var solution = document.getElementById("results");
 var msg = "<h1> 'Solution: '" + results2 + "</h2>";
-solution.innerHTML = msg + console.log(results2);
+solution.innerHTML = msg + console.log(results2);*/
 
 
 
