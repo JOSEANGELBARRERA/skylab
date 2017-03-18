@@ -115,17 +115,17 @@ console.log("The result is: User = " + scoreUser + ". Computer = " + scoreComput
 //y según el resultado mostramos al ganador
 
 if (scoreUser < scoreComputer) {
-	var winer1 = "Computer wins."
+	var winner1 = "Computer wins."
 	console.log("Computer wins.");
 }
 else{
-	var winer1 ="User Wins.";
+	var winner1 ="User Wins.";
 	console.log("User Wins.");
 }
-	var winers = document.getElementById("result");
+	var winners = document.getElementById("result");
 	var result = "<h3> The result is: User = " + scoreUser + ". Computer = " + scoreComputer + "</h3>";
-	winers.innerHTML = result;
+	winners.innerHTML = result;
 
 	var win = document.getElementById("winer");
-	var winer = "<h3> The winer was = " + winer1 + "</h3>";
-	win.innerHTML = winer;
+	var winner = "<h3> The winer was = " + winner1 + "</h3>";
+	win.innerHTML = winner;
